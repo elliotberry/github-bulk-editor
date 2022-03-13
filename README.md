@@ -1,5 +1,19 @@
 # github-bulk-editor
 
+### Note: Macosx installation
+```
+brew install pygobject3
+pip install -r requirements.txt
+
+```
+
+`pygobject3` is required to grab `gi` on mac. Look, I saved you 3 minutes!
+
+
+___
+
+## OG readme:
+
 I needed to transfer a large bunch of repositories from one organization to another one. I had already found https://github.com/ahmadnassri/github-bulk-transfer, but that looked quite brittle, and I am honestly not a big fan of node.js projects anyway (*cough* left-pad *cough*).
 
 So I put this tool together over the course of a couple of evenings, which allows you to:
